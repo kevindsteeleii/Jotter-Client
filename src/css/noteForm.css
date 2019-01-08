@@ -1,0 +1,18 @@
+@import url('./normalize.css');
+@import url('./skeleton.css');
+
+form.formbody {
+  position: relative;
+  top: 30vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-spacer {
+  margin-bottom: 20px;
+}
+
+form.formbody > textarea {
+  resize: none;
+  height: 40vh;
+}
