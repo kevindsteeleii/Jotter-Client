@@ -1,15 +1,6 @@
-form.formbody {
-  position: relative;
-  top: 30vh;
+@import url('./index.css');
+.note-container {
   display: flex;
-  flex-direction: column;
-}
-
-.form-spacer {
-  margin-bottom: 20px;
-}
-
-form.formbody > textarea {
-  resize: none;
-  height: 40vh;
+  padding: 2vh 3vw 0;
+  justify-content: space-around;
 }

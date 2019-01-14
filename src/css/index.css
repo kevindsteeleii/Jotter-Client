@@ -1,3 +1,5 @@
+@import url('./normalize.css');
+@import url('./skeleton.css');
 body {
   margin: 0;
   padding: 0;
