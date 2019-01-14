@@ -1,0 +1,9 @@
+Just a place to put some notes for routes. No sensitive info...
+
+users/:id/notebooks (get, post)
+users/ (get)
+
+notebooks/:id/notes (get, post)
+notebooks/:id (get, patch, delete)
+
+notes/:id (get, patch, delete)

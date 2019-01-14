@@ -1,0 +1,37 @@
+@import url('./index.css');
+
+.modal {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.596);
+}
+
+.unseen {
+  display: none;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.modal-content > p,
+.modal-content > h1 {
+  color: white;
+}
+
+.exit-button {
+  background-color: white;
+  color: black;
+}
