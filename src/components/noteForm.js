@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import '../css/noteForm.css';
+import '../css/forms.css';
 
 export default class NoteForm extends Component {
 

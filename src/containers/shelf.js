@@ -1,6 +1,6 @@
 import React from 'react';
 import Notebook from '../components/notebook';
-import '../css/shelf.css';
+import '../css/App.css';
 
 export default function Shelf(props) {
   return (

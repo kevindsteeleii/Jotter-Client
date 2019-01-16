@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/notebookShelf.css'
+import '../css/App.css'
 
 export default function Notebook (props){
   return (

@@ -4,10 +4,20 @@ div.formbox {
   flex: 2;
   padding: 2vw;
   box-shadow: 0 0 12px rgba(51, 51, 51, 0.4);
+  height: 100%;
 }
 
 form.formbody {
+  padding: 4vh auto 0;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+form#notebook-form {
+  width: 75%;
+  margin: 3vh auto;
   display: flex;
   flex-direction: column;
 }
@@ -16,9 +26,15 @@ form.formbody {
   margin-bottom: 20px;
 }
 
+
+
 form.formbody > textarea {
   resize: none;
   height: 40vh;
+}
+
+textarea#notebook-description {
+  resize: none;
 }
 
 /* Larger than mobile */

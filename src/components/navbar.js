@@ -1,13 +1,18 @@
-import React, { Component } from 'react'
+import React from 'react';
 
-export default class Navbar extends Component {
-  render() {
+const handleAddNotebook = (evt, props) => {
+  evt.preventDefault();
+  props.toggleNotebookForm();
+}
+
+export default function Navbar (props) {  
+  const { loggedIn }  = props;
     return (
-      <div>
+      <nav id="navbar">
         <ul>
-          <li></li>
+          <li onClick={evt => handleAddNotebook(evt, props)}>Add Notebook</li>
+        {loggedIn && <li><a href="/logoff">Log Off</a></li>}
         </ul>
-      </div>
+      </nav>
     )
-  }
 }
